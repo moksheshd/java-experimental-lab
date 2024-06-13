@@ -5,7 +5,7 @@ import org.bson.types.ObjectId;
 
 @Data
 public class Relation {
-  private ObjectId _id;
+  private ObjectId id;
   private String externalId;
   private String displayName;
   private boolean usable;

@@ -5,6 +5,6 @@ import org.bson.types.ObjectId;
 
 @Data
 public class Option {
-  private ObjectId _id;
+  private String id;
   private String displayName;
 }

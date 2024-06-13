@@ -12,7 +12,7 @@ import java.util.List;
 @Setter
 public class ObjectType {
   private ObjectId id;
-  private int version;
+  private Integer version;
   private String collection;
   private String externalId;
   private String displayName;
@@ -21,8 +21,8 @@ public class ObjectType {
   private List<Property> properties;
   private List<Relation> relations;
   private int usageStatus;
-  private long modifiedAt;
+  private Long modifiedAt;
   private User modifiedBy;
-  private long createdAt;
+  private Long createdAt;
   private User createdBy;
 }

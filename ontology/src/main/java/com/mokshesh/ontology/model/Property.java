@@ -7,7 +7,7 @@ import java.util.List;
 
 @Data
 public class Property {
-  private ObjectId _id;
+  private ObjectId id;
   private String externalId;
   private String displayName;
   private int flags;
