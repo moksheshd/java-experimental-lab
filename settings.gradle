@@ -1,2 +1,5 @@
 rootProject.name = 'java-experimental-lab'
 include 'cache'
+include 'ontology'
+include 'misc'
+
